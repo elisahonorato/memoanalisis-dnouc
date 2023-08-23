@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/memoanalisis-dnouc/static/css/main.5ac97c81.css",
+    "main.js": "/memoanalisis-dnouc/static/js/main.b578ef5e.js",
+    "static/js/787.0ae73dde.chunk.js": "/memoanalisis-dnouc/static/js/787.0ae73dde.chunk.js",
+    "index.html": "/memoanalisis-dnouc/index.html",
+    "main.5ac97c81.css.map": "/memoanalisis-dnouc/static/css/main.5ac97c81.css.map",
+    "main.b578ef5e.js.map": "/memoanalisis-dnouc/static/js/main.b578ef5e.js.map",
+    "787.0ae73dde.chunk.js.map": "/memoanalisis-dnouc/static/js/787.0ae73dde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ac97c81.css",
+    "static/js/main.b578ef5e.js"
+  ]
+}
