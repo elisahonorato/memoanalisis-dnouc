@@ -10,7 +10,8 @@ function App() {
 
   const isValidFile = (file) => {
     const allowedFileExtensions = ['PDF', 'pdf'];
-    const maxFileSize = 25 * 1024 * 1024; // 25 MB in bytes
+    const maxBytes = 25 
+    const maxFileSize = maxBytes * 1024 * 1024; // 25 MB in bytes
 
     const fileName = file.name;
     const fileNameUpperCase = fileName.toUpperCase(); // Convert to uppercase
@@ -22,25 +23,23 @@ function App() {
     
     if (!allowedFileExtensions.includes(fileExtension)) {
       setErrorMessage('Tipo de archivo no permitido');
-      setSuccessMessages([]);
       return false;
     }
 
-    setSuccessMessages(['Extensión válida']);
+    setSuccessMessages([`Extensión válida: (${fileExtension})`]);
 
     if (fileSize > maxFileSize) {
       setErrorMessage('El archivo es demasiado grande');
-      setSuccessMessages([]);
       return false;
     }
-    setSuccessMessages(['Extensión válida', 'Tamaño válido']);
+    setSuccessMessages((prevMessages) => prevMessages.concat(`Tamaño válido: (Menor a ${maxBytes} bytes)`));
+
 
     if (fileName !== fileNameUpperCase) { // Compare filenames without considering case
       setErrorMessage('El nombre del archivo no es válido');
-      setSuccessMessages([]);
       return false;
     }
-    setSuccessMessages(['Extensión válida', 'Tamaño válido', 'Nombre válido']);
+    setSuccessMessages((prevMessages) => prevMessages.concat(`Nombre válido: (${fileName})`));
 
     setErrorMessage('');
     return true;
