@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/memoanalisis-dnouc/static/css/main.5ac97c81.css",
-    "main.js": "/memoanalisis-dnouc/static/js/main.b578ef5e.js",
-    "static/js/787.0ae73dde.chunk.js": "/memoanalisis-dnouc/static/js/787.0ae73dde.chunk.js",
+    "main.js": "/memoanalisis-dnouc/static/js/main.db24598b.js",
+    "static/js/787.92327cf6.chunk.js": "/memoanalisis-dnouc/static/js/787.92327cf6.chunk.js",
     "index.html": "/memoanalisis-dnouc/index.html",
     "main.5ac97c81.css.map": "/memoanalisis-dnouc/static/css/main.5ac97c81.css.map",
-    "main.b578ef5e.js.map": "/memoanalisis-dnouc/static/js/main.b578ef5e.js.map",
-    "787.0ae73dde.chunk.js.map": "/memoanalisis-dnouc/static/js/787.0ae73dde.chunk.js.map"
+    "main.db24598b.js.map": "/memoanalisis-dnouc/static/js/main.db24598b.js.map",
+    "787.92327cf6.chunk.js.map": "/memoanalisis-dnouc/static/js/787.92327cf6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ac97c81.css",
-    "static/js/main.b578ef5e.js"
+    "static/js/main.db24598b.js"
   ]
 }
