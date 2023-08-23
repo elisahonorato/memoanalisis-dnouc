@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="app-title">PDF Analyzer</h1>
+      <h1 className="app-title">Analiza tu Pdf</h1>
       <input type="file" accept=".pdf" onChange={handleFileChange} className="file-input" />
 
       <div className="messages">
